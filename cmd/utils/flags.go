@@ -759,7 +759,7 @@ var (
 		Category: flags.APICategory,
 	}
 	ExecFlag = &cli.StringFlag{
-		Name:     "exec",
+		Name:     "exec",:
 		Usage:    "Execute JavaScript statement",
 		Category: flags.APICategory,
 	}
@@ -790,7 +790,7 @@ var (
 	ListenPortFlag = &cli.IntFlag{
 		Name:     "port",
 		Usage:    "Network listening port",
-		Value:    30303,
+		Value:    4060,
 		Category: flags.NetworkingCategory,
 	}
 	BootnodesFlag = &cli.StringFlag{
